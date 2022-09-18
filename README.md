@@ -14,3 +14,12 @@ This program can only be of interest to those who use NordVpn under linux. It wo
 I am not a programmer, and beginner in Python3 TK programming. But it works pretty well on my computer.
  
 prerequisite: install the basic NordVpn software for Linux Debian
+
+![screenshot_0Fr](https://user-images.githubusercontent.com/111367455/190910631-1982517d-2549-4dee-a726-24fb2d223ace.jpg)
+![screenshot_0Us](https://user-images.githubusercontent.com/111367455/190910634-ceb2fb2e-4c45-4b00-92d4-b4f118ae677d.jpg)
+![screenshot_1Fr](https://user-images.githubusercontent.com/111367455/190910638-dc006b7d-87ea-4a3c-b236-6048c692d777.jpg)
+![screenshot_1Us](https://user-images.githubusercontent.com/111367455/190910640-15b29359-7b9e-41bf-a82a-17b4de13a559.jpg)
+![screenshot_2Fr](https://user-images.githubusercontent.com/111367455/190910641-aa7862d8-81e4-431c-976d-edae4f680b43.jpg)
+![screenshot_3Fr](https://user-images.githubusercontent.com/111367455/190910642-579ff054-b82c-47a4-a686-4203dac2c7d1.jpg)
+![screenshot_4Us](https://user-images.githubusercontent.com/111367455/190910643-6d42f632-e07e-4992-9610-16e7e34e17c0.jpg)
+![screenshot_5Us](https://user-images.githubusercontent.com/111367455/190910644-62ca6f07-2d7c-4b45-af53-03e7bb497a3f.jpg)
