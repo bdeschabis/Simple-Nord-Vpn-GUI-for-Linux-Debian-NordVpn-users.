@@ -1,0 +1,11 @@
+voici comment a été construite l'application python pip executable sous linux
+1 - installer pyinstaller, commande : pip3 install pyinstaller
+2 - rechercher où il a été installé, eventuellement dans /home/--vous--/.local/bin/pyinstaller
+3 - afin de pouvoir lancer la commande pyinstaller sans préciser le chemin, on copie pyinstaller dans /usr/bin
+4 - On se place dans le dossier du script nordvpn_Fr.py, et on frappe la commande : pyinstaller nordvpn_Fr.py --onefile --icon="nordvpn-choix-logo40_v.png"
+    pyinstaller construit un dossier Dist et un dossier Build. On trouve dans le dossier build le programme standalone nordvpn_Fr directement exécutable 
+    dans un terminal (obligatoire)
+	voir la vidéo https://www.youtube.com/watch?v=KCEd8dsmcLo
+	
+application : créez un lanceur sur votre bureau, avec pour commande "nordvpn_Fr" , pour icône nordvpn-choix-logo40_v.png (tirée du dossier "sources",
+et marqué pour exécution dans un terminal (obligatoire).

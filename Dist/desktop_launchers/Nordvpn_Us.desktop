@@ -1,0 +1,7 @@
+[Desktop Entry]
+Name=Nordvpn_Us
+Exec=/home/bernard/.Scripts/NordVpn/NordVpn_Us/nordvpn_Us.bash
+Comment=
+Terminal=true
+Icon=/home/bernard/.Scripts/NordVpn/NordVpn_Us/nordvpn-choix-logo40_v.png
+Type=Application

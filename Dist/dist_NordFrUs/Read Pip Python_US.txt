@@ -1,0 +1,12 @@
+this is how the python application pip executable was built under linux Debian
+1 - install pyinstaller, command: "pip3 install pyinstaller"
+2 - find where it was installed, possibly in /home/---you---/.local/bin/pyinstaller
+3 - in order to be able to launch the pyinstaller command without specifying the path, we copy pyinstaller in /usr/bin
+4 - We go to the folder where the script nordvpn_Us.py is, and we type the command: pyinstaller nordvpn_Us.py --onefile --icon="nordvpn-choix-logo40_v.png"
+    pyinstaller builds a Dist folder and a Build folder. 
+    We find in the Dist folder the standalone program nordvpn_Us directly executable in a terminal (required)
+
+	See the video https://www.youtube.com/watch?v=KCEd8dsmcLo
+	
+application: create a launcher on your desktop, pointing to "nordvpn_Fr" , with icon "nordvpn-choix-logo40_v.png" , and marked for execution 
+in a terminal (required). That's all.

@@ -1,0 +1,14 @@
+On peut utiliser le logiciel NordVpn_Fr selon deux modes différents, donnant le même résultat.
+1 - utiliser l'interpréteur Python3 : on trouve dans le dossier "Sources" les programmes python "nordvpn_Fr.py" et "nordvpn_Us.py".
+	copiez celui qui vous convient (Fr ou Us) dans votre dossier .scripts (par exemple), puis nordvpn_Fr.bash (ou nordvpn_Us.bash) au même endroit.
+	Corrigez le fichier .bash pour adapter le chemin "cd /home/--vous--/.Scripts/NordVpn/NordVpn_Us" à votre cas.
+	Enfin, créez un lanceur sur votre bureau pour lancer, dans un terminal (obligatoire) le fichier nordvpn_Fr.bash. Utilisez également 
+	l'icône "nordvpn-choix-logo40_v.png"
+	
+2 - ou alors utilisez le programme directement exécutable "nordvpn_Fr" (ou "nordvpn_Us") qui est dans le dossier "dist_NordFrUs". Il suffit alors de créer 
+	sur le bureau un lanceur pointant directement vers "nordvpn_Fr", avec pour icône "nordvpn-choix-logo40_v.png", et marqué "executer dans un terminal".
+	Ce programme est créé par pyinstaller, qui encapsule dans "nordvpn_Fr" l'environnement exigé par l'exécution de "nordvpn_Fr.py". 
+	Lors de l'exécution de "nordvpn_Fr", il y a création d'un dossier temporaire dans lequel le programme "nordvpn_Fr" décompresse cet environnement 
+	ainsi que le programme "nordvpn_Fr.py" qui aussi tôt s'exécute.
+	Cette méthode est plus simple que la première, mais ne vous montre pas les fichiers sources.
+	

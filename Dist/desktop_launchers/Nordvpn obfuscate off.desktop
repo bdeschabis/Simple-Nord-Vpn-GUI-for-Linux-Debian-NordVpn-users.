@@ -1,0 +1,7 @@
+[Desktop Entry]
+Name=Nordvpn obfuscate off
+Exec=/home/--vous--/.Scripts/Nordvpn_cmd/NordVpn\\ Obfuscat\\ Off.sh
+Comment=
+Terminal=true
+Icon=/home/--vous--/.Scripts/Nordvpn_cmd/obfuscate_off.png
+Type=Application

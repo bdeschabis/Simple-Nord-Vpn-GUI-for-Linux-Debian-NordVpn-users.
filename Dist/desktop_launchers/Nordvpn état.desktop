@@ -1,0 +1,7 @@
+[Desktop Entry]
+Name=Nordvpn état
+Exec=/home/--vous--/.Scripts/Nordvpn_cmd/Nordvpn\\ etat.bash
+Comment=
+Terminal=true
+Icon=/home/--vous--/.Scripts/Nordvpn_cmd/nordvpn-logo.png
+Type=Application
