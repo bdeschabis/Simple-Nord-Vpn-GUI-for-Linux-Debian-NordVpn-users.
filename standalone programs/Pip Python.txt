@@ -1,0 +1,41 @@
+construire une application python pip executable sous linux
+1 - installer pyinstaller. La commande est : pip3 install pyinstaller
+2 - rechercher où il a été installé, eventuellement dans /home/--vous--/.local/bin/pyinstaller
+3 - afin de pouvoir lancer la commande pyinstaller sans préciser le chemin, on copie pyinstaller dans /usr/bin
+4 - On se place dans le dossier du script nordvpn_Fr.py, et on frappe la commande : pyinstaller nordvpn_Fr.py --onefile ...plus params
+    pyinstaller construit un dossier Dist et un dossier Build. On trouve dans le dossier build le programme standalone nordvpn_Fr directement exécutable 
+    dans un terminal (conseillé)
+
+nordvpn_Fr.py et nordvpn_Us.py	utilisent les icônes nordvpn-choix-logo40_r.png et nordvpn-choix-logo40_v.png
+les commandes générant chaque programme "standalone" sont, pour le programme autonome nordvpn_Fr :
+- pyinstaller --onefile --add-data 'nordvpn-choix-logo40_v.png:.' --add-data 'nordvpn-choix-logo40_r.png:.' nordvpn_Fr.py
+  qui place le programme autonome "nordvpn_Fr" dans le dossier "dist" qu'il crée. Après cette création, récupérer le programme "nordvpn_Fr" 
+  puis effacer les dossiers "dist" et le dossier "build". Effacer également le fichier "nordvpn_Us.spec".
+  
+et pour le programme autonome nordvpn_Us :
+- pyinstaller --onefile --add-data 'nordvpn-choix-logo40_v.png:.' --add-data 'nordvpn-choix-logo40_r.png:.' nordvpn_Us.py
+  qui place lui aussi le programme autonome dans le dossier "dist" qu'il crée.
+  
+On dispose finalement des deux programmes autonomes nordvpn_Fr et nordvpn_Us. Ils sont exécutables immédiatement, mais les lancer
+depuis un terminal permet d'en suivre le bon déroulement.
+=======================================================================================
+build a python pip standalone program under linux
+1 - install pyinstaller. The command is: pip3 install pyinstaller
+2 - find where it was installed, possibly in /home/--you--/.local/bin/pyinstaller
+3 - in order to be able to launch the pyinstaller command without specifying the path, copy pyinstaller in /usr/bin
+4 - In the folder where stays nordvpn_Us.py, type the command: pyinstaller nordvpn_Us.py --onefile ... + params
+    pyinstaller builds folders called "Dist" and "Build". We find in "build" the standalone program nordvpn_Us directly executable
+    in a terminal (recommended)
+
+nordvpn_Fr.py and nordvpn_Us.py use the icons nordvpn-choix-logo40_r.png and nordvpn-choix-logo40_v.png
+the commands generating each "standalone" program are, for the standalone nordvpn_Us program:
+- pyinstaller --onefile --add-data 'nordvpn-choice-logo40_v.png:.' --add-data 'nordvpn-choice-logo40_r.png:.' nordvpn_Fr.py
+  which puts the standalone program in the "dist" folder it creates. After this creation, recover the program "nordvpn_Us"
+  then delete the "dist" folders and the "build" folder. Also delete the "nordvpn_Us.spec" file.
+  
+and for the standalone nordvpn_Us program:
+- pyinstaller --onefile --add-data 'nordvpn-choice-logo40_v.png:.' --add-data 'nordvpn-choice-logo40_r.png:.' nordvpn_Us.py
+  which also places the standalone program in the "dist" folder it creates.
+  
+Finally , we have the two autonomous programs nordvpn_Fr and nordvpn_Us. They are executable immediately, but running them
+from a terminal makes it possible to monitor the process
