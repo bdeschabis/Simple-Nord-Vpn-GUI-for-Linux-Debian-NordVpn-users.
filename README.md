@@ -11,7 +11,7 @@ NordVpn does not deliver a GUI for linux, unlike Windows. But it does provide a 
 For others, it's tedious: this Python3 program composes and launches these commands itself by presenting windows of choice (choice of country and city from which the VPN exits, choice of OpenVpn or Nordlynx technology, Obfuscation of the server , killswitch, autoconnect) in which you just have to click to open the NordVpn VPN.
 
 This program can only be of interest to those who use NordVpn under linux. It works well on Debian, Mint, Kubuntu.
-I am not a programmer, and beginner in Python3 TK programming. But it works pretty well on my computer.
+it works pretty well on my computer.
  
 prerequisite: install the basic NordVpn software for Linux Debian
 
